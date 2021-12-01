@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\laravel",
+    "\\laravel\\app",
+    "\\laravel\\app\\Http",
+    "\\laravel\\app\\Http\\Controllers",
+    "\\laravel\\public",
+    "\\laravel\\public\\css",
+    "\\laravel\\public\\imgs",
+    "\\laravel\\resources",
+    "\\laravel\\resources\\views"
+  ],
+  "SelectedNode": "\\laravel\\resources\\views\\Contact.blade.php",
+  "PreviewInSolutionExplorer": false
+}
