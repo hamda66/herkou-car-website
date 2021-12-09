@@ -1,0 +1,202 @@
+* {
+	margin-left: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+input {
+	outline: none;
+	border: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+button {
+	outline: none;
+	border: none;
+	background: transparent;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.container {
+	max-width: 1200px;
+}
+
+.wrap-contact100 {
+  width: 1000px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+
+}
+
+.contact100-form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.contact100-form-title {
+  display: block;
+  width: 100%;
+  font-family: Poppins-Bold;
+  font-size: 39px;
+  color: #333333;
+  line-height: 1.2;
+  text-align: left;
+  padding-bottom:35px;
+}
+
+
+.wrap-input100 {
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid #d9d9d9;
+  padding-bottom: 13px;
+  margin-bottom: 65px;
+}
+
+.rs1-wrap-input100 {
+  width: calc((100% - 30px) / 2);
+}
+
+.label-input100 {
+  font-family: Poppins-Regular;
+  font-size: 15px;
+  color: #999999;
+  line-height: 1.5;
+  padding-left: 5px;
+}
+
+.input100 {
+  display: block;
+  width: 100%;
+  background: transparent;
+  font-family: Poppins-SemiBold;
+  font-size: 18px;
+  color: #555555;
+  line-height: 1.2;
+  padding: 0 5px;
+}
+
+.focus-input100 {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.focus-input100::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+  background: #ff4b5a;
+}
+
+
+input.input100 {
+  height: 40px;
+}
+
+.input100:focus + .focus-input100::before {
+  width: 100%;
+}
+
+.has-val.input100 + .focus-input100::before {
+  width: 100%;
+}
+
+.container-contact100-form-btn {
+  width: 100%;
+  margin-top: -25px;
+}
+
+.contact100-form-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 160px;
+  height: 50px;
+  background-color: #ff4b5a;
+  border-radius: 25px;
+  font-family: Poppins-Medium;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+
+.contact100-more {
+  font-family: Poppins-Regular;
+  font-size: 14px;
+  color: #999999;
+  line-height: 1.5;
+}
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+*{
+	margin:0;
+	padding: 0;
+	font-family:Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../White-Ferrari.jpg);
+	height:100vh;
+	background-size: cover;
+background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 40px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color:#fff;
+	padding: 5px 20px;
+    border:2px solid #fff;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+background-color: #fff;
+color:#000;
+}
+
+
+.main{
+	max-width: 1300px;
+	margin: auto;
+}
