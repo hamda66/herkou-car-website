@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Perfect Wheels</title>
-<link rel="stylesheet" type="text/css" href="public/css/style.css">
+<link rel="stylesheet" type="text/css" href="C:\Users\user\Downloads\perfectwheels\public\css\style.css"> 
 </head>
 <body>
 <header>
