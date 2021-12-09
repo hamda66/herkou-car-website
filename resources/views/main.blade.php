@@ -10,10 +10,11 @@
 <div class="logo"></div>
 <img src="{{ secure_asset('/public/imgs/logo4.png') }}">
 <ul>
-<li><a href="#">Home</a></li>
-<li><a href="Brands.html">Brands</a></li>
-<li><a href="About.html">About</a></li>
-<li><a href="Contact.html">Contact</a></li>
+<li><a href="main.blade">Home</a></li>
+<li><a href="brands">Brands</a></li>
+<li><a href="about">About</a></li>
+<li><a href="contact">Contact</a></li>
+<li><a href="login">Login</a></li>
 </ul>
 </div>
 <div class="title">
