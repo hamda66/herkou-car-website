@@ -2,13 +2,13 @@
 <html>
 <head>
 <title>Perfect Wheels</title>
-<link rel="stylesheet" type="text/css" href="{{ asset('/public/css/style.css') }}"> 
+<link rel="stylesheet" type="text/css" href="{{ secure_asset('/css/style.css') }}"> 
 </head>
 <body>
 <header>
 <div class="main">
 <div class="logo"></div>
-<img src="{{ secure_asset('/public/imgs/logo4.png') }}">
+<img src="{{ asset('/public/imgs/logo4.png') }}">
 <ul>
 <li><a href="#">Home</a></li>
 <li><a href="Brands.html">Brands</a></li>
