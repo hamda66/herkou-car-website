@@ -8,7 +8,7 @@
 <header>
 <div class="main">
 <div class="logo"></div>
-<img src="{{ secure_asset('/img/logo4.png') }}">
+<img src="{{ secure_asset('/public/img/logo4.png') }}">
 <ul>
 <li><a href="#">Home</a></li>
 <li><a href="Brands.html">Brands</a></li>
