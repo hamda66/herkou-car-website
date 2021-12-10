@@ -29,3 +29,5 @@ Route::get('/', function () {
 
 */
 Route::get('/about','pageController@about')->name('about');
+Route::get('/contact','pageController@contact')->name('contact');
+Route::get('/brands','pageController@brands')->name('brands');
