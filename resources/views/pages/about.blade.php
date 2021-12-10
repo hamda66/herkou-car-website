@@ -1,6 +1,5 @@
 <html>
 <head>
-@extends('main')
 <title>Perfect Wheels</title>
 <link rel="stylesheet" type="text/css" href="{{ secure_asset('/css/About.css') }}">
 </head>

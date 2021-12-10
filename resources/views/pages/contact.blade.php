@@ -1,4 +1,4 @@
-@extends('main')
+
 <!DOCTYPE html>
 <html>
 <head>
