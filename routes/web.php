@@ -1,7 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use app\Http\Controllers\pageController;
+//namespace app\Http\Controllers\pageController;
+use Illuminate\Routing\Controller;
+use Users\user\Downloads\perfectwheels\app\Http\Controllers\pageController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -24,8 +27,5 @@ Route::get('/', function () {
 
 /*Auth::routes();
 
-Route::get('/about','C:\Users\user\Downloads\perfectwheels\app\Http\Controllers\pageController.php@about')->name('about');
-Route::get('/brands','C:\Users\user\Downloads\perfectwheels\app\Http\Controllers\pageController.php@brands')->name('brands');
-Route::get('/contact','C:\Users\user\Downloads\perfectwheels\app\Http\Controllers\pageController.php@contact')->name('contact');
 */
-Route::get('/', [pageController::class, 'about']);
+Route::get('/about','pageController@about')->name('about');

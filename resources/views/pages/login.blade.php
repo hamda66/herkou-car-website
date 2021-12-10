@@ -1,4 +1,3 @@
-@extends('main')
 <html>
 <style>body {
   font: 13px/20px "Lucida Grande", Tahoma, Verdana, sans-serif;
