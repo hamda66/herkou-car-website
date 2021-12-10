@@ -19,7 +19,7 @@ use app\Http\Controllers\pageController;
 */
 
 Route::get('/', function () {
-    return view('about');
+    return view('pages.about');
 });
 
 /*Auth::routes();
