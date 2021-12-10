@@ -16,10 +16,10 @@ use app\Http\Controllers\pageController;
 });
 
 
-*/
 
+*/
 Route::get('/', function () {
-    return view('pages.about');
+    return view('main');
 });
 
 /*Auth::routes();
@@ -28,4 +28,4 @@ Route::get('/about','C:\Users\user\Downloads\perfectwheels\app\Http\Controllers\
 Route::get('/brands','C:\Users\user\Downloads\perfectwheels\app\Http\Controllers\pageController.php@brands')->name('brands');
 Route::get('/contact','C:\Users\user\Downloads\perfectwheels\app\Http\Controllers\pageController.php@contact')->name('contact');
 */
-Route::get('about', [pageController::class, 'about']);
+Route::get('/', [pageController::class, 'about']);
